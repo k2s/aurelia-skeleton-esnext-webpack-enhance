@@ -68,7 +68,7 @@
       ]
     },
     "moduleRootOverride": {
-      "aurelia-gravatar-component": "dist/commonjs/gravatar.js"
+      "aurelia-gravatar-component": "dist/commonjs"
     }
   },
   "dependencies": {
