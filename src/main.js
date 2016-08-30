@@ -8,7 +8,7 @@ export async function configure (aurelia) {
   aurelia.use
     .standardConfiguration()
     .developmentLogging()
-    .plugin('aurelia-gravatar-component')
+    .plugin('aurelia-gravatar-component/dist/commonjs/index')
     .globalResources('hello')
 
   // Uncomment the line below to enable animation.

@@ -64,11 +64,9 @@
   "aurelia": {
     "build": {
       "resources": [
-        "aurelia-gravatar-component/gravatar"
+        "aurelia-gravatar-component/dist/commonjs/index",
+        "aurelia-gravatar-component/dist/commonjs/gravatar"
       ]
-    },
-    "moduleRootOverride": {
-      "aurelia-gravatar-component": "dist/commonjs"
     }
   },
   "dependencies": {
